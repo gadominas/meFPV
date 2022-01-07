@@ -132,6 +132,7 @@
 		"name": "Site25",
 		"url": "https://site25.nicepage.io/Page-1.html"
 }</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -142,7 +143,11 @@
     });
   };
 </script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script>
+  FB.Event.subscribe('send_to_messenger', function(e) {
+  // callback for events triggered by the plugin
+  });
+</script>
     
     <meta property="og:title" content="Page 1">
     <meta property="og:type" content="website">
