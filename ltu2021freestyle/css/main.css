@@ -1536,14 +1536,14 @@ header .logo a {
 		font-family: "BONVENOCF", sans-serif;
 	}
 
-#features .feature-count {
-	display: block;
-	color: #ed254d;
-	font-family: "roboto-bold", serif;
-	font-size: 4rem;
-	line-height: 1;
-	margin-bottom: 2.4rem;
-}
+	#features .feature-count {
+		display: block;
+		color: #ed254d;
+		font-family: "BONVENOCF", sans-serif;
+		font-size: 4rem;
+		line-height: 1;
+		margin-bottom: 2.4rem;
+	}
 
 /* ------------------------------------------------------------------- 
  * responsive:
