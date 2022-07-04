@@ -738,17 +738,17 @@ h6,
 
 .nk-title-back + * {
     position: relative;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 
 .nk-title-back + .nk-sub-title {
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 /* Title Separator */
 .nk-title-sep {
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
     line-height: 0;
     color: inherit;
 }
@@ -4964,6 +4964,10 @@ img.rounded {
     padding-top: 75px;
 }
 
+.nk-header-title.nk-header-title-smx .nk-header-table {
+    min-height: 80px;
+}
+
 .nk-header-title.nk-header-title-sm .nk-header-table {
     min-height: 350px;
 }
@@ -4981,7 +4985,7 @@ img.rounded {
 }
 
 .nk-header-title.nk-header-title-full .nk-header-table {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .nk-header-title .nk-header-table-cell {
@@ -8795,20 +8799,35 @@ body.nk-body-overflow .nk-share-buttons {
     position: relative;
     display: block;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 16.25%;
     overflow: hidden;
     cursor: pointer;
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.nk-plain-video > iframe {
+.map {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.map > iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 800%;
     z-index: 1;
+}
+
+.nk-plain-video > iframe {
+    
 }
 
 .nk-plain-video > .nk-video-plain-toggle {
