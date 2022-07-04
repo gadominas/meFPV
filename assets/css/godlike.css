@@ -8810,11 +8810,10 @@ body.nk-body-overflow .nk-share-buttons {
     position: relative;
     display: block;
     width: 100%;
+    height: 100%;
     padding-top: 100%;
     overflow: hidden;
     cursor: pointer;
-    background-position: 50% 50%;
-    background-size: cover;
 }
 
 .map > iframe {
@@ -8822,7 +8821,7 @@ body.nk-body-overflow .nk-share-buttons {
     top: 0;
     left: 0;
     width: 100%;
-    height: 800%;
+    height: 100%;
     z-index: 1;
 }
 
