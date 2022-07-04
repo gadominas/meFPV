@@ -8823,6 +8823,7 @@ body.nk-body-overflow .nk-share-buttons {
     width: 100%;
     height: 100%;
     z-index: 1;
+    padding: 10px;
 }
 
 .nk-plain-video > iframe {
